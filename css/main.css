@@ -1,0 +1,74 @@
+.main-pot {
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+.date-pots {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.pot {
+    width: 150px;
+    height: 150px;
+    transform: perspective(6px) rotateX(-1deg);
+    margin: 35px;
+    font-size: 27px;
+    color: #4a0fb1;
+    font-family: "Times New Roman", serif;
+    text-transform: uppercase;
+    font-style: normal;
+}
+
+.date-pots .pot {
+    background: #cdb4f9;
+}
+
+.birth-pots .pot {
+    background: aqua;
+}
+
+.composite-pots .pot {
+    background: gold;
+}
+
+.line-1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+    padding-top: 10px;
+}
+
+.line-2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px;
+    padding-top: 10px;
+}
+
+.line-3 {
+    display: inline-block;
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.pot-value-1 {
+    #margin: 5px;
+}
+.pot-value-2 {
+
+}
+.pot-value-3 {
+
+}
+.pot-value-4 {
+
+}
+.pot-value-5 {
+
+}
+.pot-value-6 {
+
+}

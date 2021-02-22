@@ -6,10 +6,17 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-<form action="#">
-    <input class="date-selection" type="date" name="selection-date" />
+<form action="#" class="main-pot" id="main-pot">
+    <label for="selection-date">Date</label><input class="date-selection" type="date" name="selection-date" id="selection-date" />
+    <label for="birth-date">Birthday</label><input class="date-selection" type="date" name="birth-date" id="birth-date" />
     <input class="submit-calculation-btn" type="submit">
 </form>
+
+
+<div id="date-pots" class="date-pots"></div>
+<div id="birth-pots" class="birth-pots"></div>
+<div id="composite-pots" class="composite-pots"></div>
 </body>
+<script type="application/javascript" src="js/jquery-3.5.1.min.js"></script>
 <script type="application/javascript" src="js/main.js"></script>
 </html>
